@@ -1,0 +1,61 @@
+// variable
+@grass: lightgreen;
+
+h1{
+  color: @grass;
+}
+.panel{
+  background: blue;
+  font-size:20px;
+}
+
+//mixin
+.panel-big-text{
+  .panel;
+  font-size:35px;
+}
+//nested rules
+#side-nav{
+  background: yellow;
+  a:link a:visited{
+    color: white;
+  }
+  a:hover{
+    color: white;
+  }
+}
+
+//nested conditionals
+#welcome-banner {
+  font-size: 32px;
+  background: greenyellow;
+  //small devices
+  @media screen {
+    @media (max-width: 768px) {
+      font-size: 20px;
+      background: pink;
+    }
+  }
+}
+
+//small operations
+
+@buttonBackground : green;
+@buttonColor: white;
+@buttonPadding: 5px;
+
+.button{
+  background: @buttonBackground;
+  color: @buttonColor;
+  padding: @buttonPadding;
+}
+.big-buton{
+  .button;
+  padding: @buttonPadding + 20px;
+}
+.lighter-button{
+  .button;
+  background: @buttonBackground * 1.6;
+
+}
+

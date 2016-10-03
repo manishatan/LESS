@@ -1,0 +1,68 @@
+h1 {
+  color: lightgreen;
+}
+.panel {
+  background: blue;
+  font-size: 20px;
+}
+.panel-big-text {
+  background: blue;
+  font-size: 20px;
+  font-size: 35px;
+}
+#side-nav {
+  background: yellow;
+}
+#side-nav a:link a:visited {
+  color: white;
+}
+#side-nav a:hover {
+  color: white;
+}
+#welcome-banner {
+  font-size: 32px;
+  background: greenyellow;
+}
+@media screen and (max-width: 768px) {
+  #welcome-banner {
+    font-size: 20px;
+    background: pink;
+  }
+}
+.button {
+  background: green;
+  color: white;
+  padding: 5px;
+}
+.big-buton {
+  background: green;
+  color: white;
+  padding: 5px;
+  padding: 25px;
+}
+.lighter-button {
+  background: green;
+  color: white;
+  padding: 5px;
+  background: #00cd00;
+}
+.img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-color: black;
+}
+#one {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-color: black;
+  background: url("images/pink cube.jpg");
+}
+#two {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-color: black;
+  background: url("images/home/cube.png");
+}

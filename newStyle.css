@@ -1,0 +1,20 @@
+.img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-color: black;
+}
+#one {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-color: black;
+  background: url("images/pink cube.jpg");
+}
+#two {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-color: black;
+  background: url("images/home/cube.png");
+}
